@@ -15,8 +15,8 @@ class HeartSoundDetector:
         # Define auscultation points based on anatomical landmarks
         # Coordinates are relative to chest center (sternum midpoint)
         self.auscultation_points = {
-            'A': {'name': 'Aortic', 'position': (0, 2), 'rib': '2nd ICS right'},
-            'P': {'name': 'Pulmonic', 'position': (0, 2), 'rib': '2nd ICS left'},
+            'A': {'name': 'Aortic', 'position': (1, 2), 'rib': '2nd ICS right'},
+            'P': {'name': 'Pulmonic', 'position': (-1, 2), 'rib': '2nd ICS left'},
             'T': {'name': 'Tricuspid', 'position': (-1, -1), 'rib': '4th ICS left'},
             'M': {'name': 'Mitral', 'position': (2, -3), 'rib': '5th ICS midclavicular'}
         }
