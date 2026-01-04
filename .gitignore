@@ -1,0 +1,23 @@
+# Generated files from heart sound detector
+heart_sound.wav
+heart_sound_analysis.png
+*.wav
+*.png
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
